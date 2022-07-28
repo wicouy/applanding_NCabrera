@@ -1,10 +1,11 @@
 import Nav from "./Nav"
+import CartWidget from "./CartWidget"
 
 const Header = () => {
     return (
         <header id="header">
             <h1 className="titulo" >Titulo</h1>
-            <img id="logo" src="/logo192.png"/>
+            <CartWidget />
             <Nav
                 type="header"
             />
